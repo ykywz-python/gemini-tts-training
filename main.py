@@ -323,53 +323,56 @@ if __name__ == "__main__":
     # ... (load_api_keys) ...
     
     FULL_TEXT_PROMPT = """
+---
 START_SCRIPT
 
-[INSTRUKSI_SUARA: Bicara dengan energik dan punchy. Seperti ngobrol santai dengan teman. Cepat tapi jelas. Seperti kakak yang excited cerita ke adik.]
+[INSTRUKSI_SUARA: Bicara dengan energik dan punchy. Seperti ngobrol santai dengan teman. Cepat tapi jelas. Seperti teman yang lagi nge-spill tea.]
 
 [TEKS_SCRIPT]
-Ini dia 5 fakta unik yang bikin kamu melongo dari Korea Selatan!
+STOP! Mau kerja ke Korea? Dengerin 5 tips anti-gagal buat kamu, para PMI.
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Semangat, persuasif, hangat]
 [TEKS_SCRIPT]
-Like dan subscribe, biar kamu jadi anak cerdas, oke!
+Follow & save video ini, biar sukses di negeri ginseng, ya!
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Jelas dan to the point]
 [TEKS_SCRIPT]
-Langsung kita mulai.
+Ini dia lima kunci sukses yang wajib kamu tahu.
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Casual, mengundang, ceria]
 [TEKS_SCRIPT]
-Pertama. Umur di sana beda. Saat lahir, kamu sudah dianggap setahun. Loh, kok sudah setahun?
+Pertama, Kuasai Bahasa Korea. Wajib lulus ujian biar bisa berangkat. Belajar keras ya.
 
 [JEDA: 0.2 detik]
 
-Kedua. Toilet super pintar. Ada tombol pencuci canggih. Wow, bersih banget ya!
+Kedua, Siapkan Mental Baja. Budaya kerja di sana itu cepat sekali. Jangan sampai down.
 
 [JEDA: 0.2 detik]
 
-Ketiga. Kimchi di mana-mana. Sayuran pedas yang wajib ada. Pedas, tapi enak banget!
+Ketiga, Hindari Pinjol Ilegal. Fokus nabung biar gak terjebak utang. Ingat tujuanmu.
 
 [JEDA: 0.2 detik]
 
-Keempat. Angka empat ditakuti. Di lift, sering diganti huruf F. Kayak gak boleh main!
+Keempat, Jaga Stamina Tubuh. Kerja berat, istirahat harus cukup. Prioritaskan kesehatan.
 
 [JEDA: 0.2 detik]
 
-Kelima. Seragam keren ala drama. Bajunya stylish dan kece banget. Mau pakai seragam itu!
+Kelima, Jangan Sampai Ilegal. Ikuti semua aturan visa biar aman. Jangan kabur deh.
 
 [JEDA: 0.2 detik]
 
-Mana fakta yang paling unik? Komen ya!
+[INSTRUKSI_SUARA: Casual, mengundang, ceria]
+[TEKS_SCRIPT]
+Kamu relate sama yang mana? Coba komen di bawah.
 """
     
-    VOICE_NAME = 'Autonoe'
+    VOICE_NAME = 'Zubenelgenubi'
     BASE_OUTPUT_FILE = 'narasi_2_tts' # Nama file dasar
     FINAL_OUTPUT_FILE = 'final_full_2_narasi.wav'
     # Konfigurasi Chunking (Memaksimalkan RPD)

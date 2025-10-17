@@ -1,5 +1,5 @@
 # gemini-2.5-flash-preview-tts
-implementasi penggunakan model gemini-2.5-flash-preview-tts, model ini digunakan untuk membuat tulisan menjadi suara, atau istilah inggrisnya text to speech
+implementasi penggunaan model gemini-2.5-flash-preview-tts, model ini digunakan untuk membuat tulisan menjadi suara, atau istilah inggrisnya text to speech
 
 ## Penjelajahan
 - basic, cara penggunaan biasa
@@ -12,7 +12,7 @@ implementasi penggunakan model gemini-2.5-flash-preview-tts, model ini digunakan
 - jalankan uv: `uv sync`
 - buat file: api-keys.txt
 - taruh api keynya didalam api-keys.txt, pisah dengan baris baru untuk merotasinya [dapatkan api key disini](https://aistudio.google.com/app/api-keys)
-- taruh `ffmpeg.exe` kedalam folder pastikan sejajar dengan file `main.py`
+- taruh [`ffmpeg.exe`](https://github.com/advancedfx/ffmpeg.zeranoe.com-builds-mirror/releases) kedalam folder, pastikan sejajar dengan file `main.py`
 - jalankan program: `uv run main.py`
 
 
