@@ -328,52 +328,50 @@ START_SCRIPT
 [INSTRUKSI_SUARA: Bicara dengan energik dan punchy. Seperti ngobrol santai dengan teman. Cepat tapi jelas. Seperti kakak yang excited cerita ke adik.]
 
 [TEKS_SCRIPT]
-Stop scroll! Kamu wajib tahu 5 tips rahasia jadi anak sehat super.
+Ini dia 5 fakta unik yang bikin kamu melongo dari Korea Selatan!
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Semangat, persuasif, hangat]
 [TEKS_SCRIPT]
-Like dan share, biar kita semua jadi anak hebat, ya!
+Like dan subscribe, biar kamu jadi anak cerdas, oke!
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Jelas dan to the point]
 [TEKS_SCRIPT]
-Langsung kita bedah satu-satu ya!
+Langsung kita mulai.
 
 [JEDA: 0.2 detik]
 
 [INSTRUKSI_SUARA: Casual, mengundang, ceria]
 [TEKS_SCRIPT]
-Pertama. Sayur dan Buah. Makan semua biar kamu gak sakit! Badan jadi super kuat!
+Pertama. Umur di sana beda. Saat lahir, kamu sudah dianggap setahun. Loh, kok sudah setahun?
 
 [JEDA: 0.2 detik]
 
-Kedua. Tidur Cukup. Jangan begadang biar besok gak lemas. Otak cepat tangkap pelajaran!
+Kedua. Toilet super pintar. Ada tombol pencuci canggih. Wow, bersih banget ya!
 
 [JEDA: 0.2 detik]
 
-Ketiga. Cuci Tangan. Habis main, kuman harus diusir. Wajahmu jadi bersih lho!
+Ketiga. Kimchi di mana-mana. Sayuran pedas yang wajib ada. Pedas, tapi enak banget!
 
 [JEDA: 0.2 detik]
 
-Keempat. Minum Air. Jangan cuma minum yang manis-manis. Badan kamu anti loyo!
+Keempat. Angka empat ditakuti. Di lift, sering diganti huruf F. Kayak gak boleh main!
 
 [JEDA: 0.2 detik]
 
-Kelima. Gerak Badan. Olahraga ringan bikin semangat full. Ayo lari kejar cita-cita!
+Kelima. Seragam keren ala drama. Bajunya stylish dan kece banget. Mau pakai seragam itu!
 
 [JEDA: 0.2 detik]
 
-[INSTRUKSI_SUARA: Casual, mengundang, ceria]
-[TEKS_SCRIPT]
-Coba kamu paling suka tips yang mana? Komen di bawah!
+Mana fakta yang paling unik? Komen ya!
 """
     
     VOICE_NAME = 'Autonoe'
-    BASE_OUTPUT_FILE = 'narasi_3_tts' # Nama file dasar
-    FINAL_OUTPUT_FILE = 'final_full_3_narasi.wav'
+    BASE_OUTPUT_FILE = 'narasi_2_tts' # Nama file dasar
+    FINAL_OUTPUT_FILE = 'final_full_2_narasi.wav'
     # Konfigurasi Chunking (Memaksimalkan RPD)
     MAX_CHARS_PER_CHUNK = 4800 
     

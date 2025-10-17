@@ -119,23 +119,33 @@ Say in a `<style-modifier> <emotion-or-tone> <speech-rate> <pitch-modifier> <vol
 ---
 
 ## CONTOH PENGGUNAAN PADA CHUNK TEKS
+- gaya berbicara marah: hello broo whatsup !!!
+- gaya berbicara senang: mantap sekali bro !!!
 
-# 1. Rap Cepat dan Energik
-Say with a fast, energetic rap style:
-"Lihat, ini ritme, dari nol kini kita naik level.
-Kode bersinar terang, Gemini Flash kini jadi bekal."
+## Contoh lain yang bisa dipakai
+```
+[INSTRUKSI_SUARA: Bicara dengan energik dan punchy. Seperti ngobrol santai dengan teman. Cepat tapi jelas. Seperti kakak yang excited cerita ke adik.]
+[TEKS_SCRIPT]
+TEXTNYA MASUKIN
 
-# 2. Narasi Misterius dan Berbisik
-Say in a hushed, mysterious tone:
-"Di sebuah kota tua yang diselimuti kabut, tinggallah seorang penjaga mercusuar bernama Elara."
+[JEDA: 0.2 detik]
 
-# 3. Teriakan Panik (Gaya Vokal Dramatis)
-Say with a loud, desperate yell:
-"Siapa di sana? teriak Elara, suaranya terdengar kecil dan putus asa di tengah hiruk pikuk badai."
+[INSTRUKSI_SUARA: Semangat, persuasif, hangat]
+[TEKS_SCRIPT]
+TEXTNYA MASUKIN
 
-# 4. Suara Dingin dan Ethereal
-Say with a cold, ethereal whisper:
-"Pulang," bisik anak itu. "Mereka sedang menunggu."
+[JEDA: 0.2 detik]
+
+[INSTRUKSI_SUARA: Jelas dan to the point]
+[TEKS_SCRIPT]
+TEXTNYA MASUKIN
+
+[JEDA: 0.2 detik]
+
+[INSTRUKSI_SUARA: Casual, mengundang, ceria]
+[TEKS_SCRIPT]
+TEXTNYA MASUKIN
+```
 
 ---
 
@@ -143,3 +153,7 @@ Say with a cold, ethereal whisper:
 
 * Model TTS akan berusaha mencocokkan gaya yang Anda berikan.
 * Anda dapat menggunakan tag gaya **di awal setiap chunk** untuk memastikan gaya tetap konsisten, terutama setelah pemecahan otomatis berdasarkan batas karakter.
+
+## Beri Dukungan
+
+[![Buka Halaman Donasi](https://irfanykywz.github.io/donate/donate.png)](https://irfanykywz.github.io/donate/)
