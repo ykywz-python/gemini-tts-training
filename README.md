@@ -153,7 +153,3 @@ TEXTNYA MASUKIN
 
 * Model TTS akan berusaha mencocokkan gaya yang Anda berikan.
 * Anda dapat menggunakan tag gaya **di awal setiap chunk** untuk memastikan gaya tetap konsisten, terutama setelah pemecahan otomatis berdasarkan batas karakter.
-
-## Beri Dukungan
-
-[![Buka Halaman Donasi](https://irfanykywz.github.io/donate/donate.png)](https://irfanykywz.github.io/donate/)
